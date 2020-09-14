@@ -38,7 +38,7 @@
 
                 <div class="col-md-3 my-auto">
                     <h2>{{ $Item->prijs }}</h2>
-                    <a href="{{ $Item->link }}">Nu kopen</a>
+                    <a href="{{ $Item->link }}" target="_blank">Nu kopen</a>
                     <p>Wens afkomstig van: {{ $Item->username }}</p>
                 </div>
             </div>
