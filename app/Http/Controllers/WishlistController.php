@@ -12,9 +12,7 @@ class WishlistController extends Controller
     public function index(){
         $WishItem = Wishlist::all();
 
-        return view('wishlist', [
-            'WishItem' => $WishItem,
-        ]);
+        return view('wishlist', ['WishItem' => $WishItem]);
     }
 
     public function showListItem($id) {
