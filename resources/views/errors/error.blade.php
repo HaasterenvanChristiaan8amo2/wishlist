@@ -11,6 +11,7 @@
         <h1 class="text-danger display-2">Error code: {{ $code }}</h1>
         <h1 class="text-white">Error message: {{ $message }}</h1>
         <a href="/" class="btn btn-primary">Go back Home</a>
+        <a href="/login" class="btn btn-success">Login</a>
     </div>
 </div>
 

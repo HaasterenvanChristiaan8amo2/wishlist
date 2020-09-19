@@ -11,9 +11,8 @@
 |
 */
 
-Route::get('/', function () {
-    return view('index');
-});
+Route::get('/', 'PageController@index');
+Route::get('/error', 'PageController@error')->name('error');
 
 Route::get('/login', 'AuthController@loginView');
 Route::post('/login', 'AuthController@loginUser');
